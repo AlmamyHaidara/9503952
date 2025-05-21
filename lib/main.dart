@@ -1,3 +1,4 @@
+import 'package:depence_manager/Screens/login_screen.dart';
 import 'package:depence_manager/Screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -37,7 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
       //   backgroundColor: Theme.of(context).colorScheme.inversePrimary,
       //   title: Text(widget.title),
       // ),
-      body: SplashScreen(),
+      body: LoginScreen(),
 
       // floatingActionButton: FloatingActionButton(
       //   onPressed: _incrementCounter,
